@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f2e0;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.banner {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.idiom-title {
+    color: #333;
+    font-size: 28px;
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px 10px;
+}
+
+.idiom-explanation {
+    color: #666;
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.idiom-origin {
+    color: #666;
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.idiom-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.process-description {
+    color: #666;
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: center; /* 添加这一行 */
+}
+
+.watermark {
+    position: relative;
+    margin-top: 10px;
+    color: #999;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: center; /* 添加这一行 */
+}
